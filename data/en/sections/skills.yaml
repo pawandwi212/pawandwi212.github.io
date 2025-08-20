@@ -27,19 +27,19 @@ buttons:
 skills:
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Proficient in deploying and managing applications on Kubernetes, with hands-on experience in debugging and resolving Kubernetes-related issues. Well-versed in Kubernetes resources, manifests, and templates."
   categories: ["container"]
   url: "https://kubernetes.io/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+- name: Java Development
+  logo: /images/sections/skills/java.png
+  summary: "Capable of writing basic Java programs, debugging issues, and integrating code with applications and web servers."
   categories: ["basic", "language"]
   url: "https://golang.org/"
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "Hands-on experience with key AWS services such as EC2, S3, IAM, EBS, Auto Scaling, ELB, VPC, RDS, and EKS, with expertise in provisioning, configuring, and managing cloud resources for scalable and secure application deployments. Additionally, possess basic knowledge of Azure and Google Cloud Platform (GCP).
   categories: ["others"]
 
 - name: Docker
@@ -50,7 +50,7 @@ skills:
 
 - name: Prometheus
   logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  summary: "Capable of setup, configure Prometheus metrics. Also, experienced with writing metric exporters."
   categories: ["basic"]
   url: "https://prometheus.io/"
 
@@ -61,11 +61,11 @@ skills:
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development. Mostly, use Github, GitLab and Bitbucket. Also, have experience in working with GitLab."
   categories: ["basic"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: Groovy
+  logo: /images/sections/skills/groovy.png
+  summary: "Experienced in using Groovy to develop CI/CD pipelines in Jenkins, including the creation of highly mature and reusable shared libraries."
   categories: ["basic", "language"]
