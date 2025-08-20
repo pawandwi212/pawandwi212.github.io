@@ -39,7 +39,7 @@ skills:
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Hands-on experience with key AWS services such as EC2, S3, IAM, EBS, Auto Scaling, ELB, VPC, RDS, and EKS, with expertise in provisioning, configuring, and managing cloud resources for scalable and secure application deployments. Additionally, possess basic knowledge of Azure and Google Cloud Platform (GCP).
+  summary: "Hands-on experience with key AWS services such as EC2, S3, IAM, EBS, Auto Scaling, ELB, VPC, RDS, and EKS, with expertise in provisioning, configuring, and managing cloud resources for scalable and secure application deployments. Additionally, possess basic knowledge of Azure and Google Cloud Platform (GCP)."
   categories: ["others"]
 
 - name: Docker
