@@ -76,12 +76,12 @@ badges:
 - type: certification
   name: Apache Kafka Essential Training
   url: "https://www.linkedin.com/learning/apache-kafka-essential-training-getting-started-2021"
-  badge: "https://drive.google.com/file/d/1GmimRZEssHMp9Rsb8WXqKGvrO5J2Cqiy/view?usp=sharing"
+  badge: "files/kafka.png"
 
 - type: certification
   name: SSL/TLS for Beginners
   url: "https://www.linkedin.com/learning/ssl-tls-for-beginners-securing-network-communications-2019"
-  badge: "https://drive.google.com/file/d/17tLgIUUEm3cJNgHOQMSf3hGZkCw3vLw9/view?usp=sharing"
+  badge: "files/ssl-tls.png"
 
 - type: soft-skill-indicator
   name: Leadership
