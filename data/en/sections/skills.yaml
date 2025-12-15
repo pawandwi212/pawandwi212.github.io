@@ -19,6 +19,14 @@ buttons:
   filter: "language"
 - name: Container
   filter: "container"
+- name: Cloud
+  filter: "cloud"
+- name: Logging/Monitoring
+  filter: "logmonitor"
+- name: Infra as code
+  filter: "iac"
+- name: CICD
+  filter: "cicd"
 - name: Others
   filter: "others"
 
@@ -40,7 +48,7 @@ skills:
   - name: Cloud Computing
     logo: /images/sections/skills/cloud.png
     summary: "Hands-on experience with key AWS services such as EC2, S3, IAM, EBS, Auto Scaling, ELB, VPC, RDS, and EKS, with expertise in provisioning, configuring, and managing cloud resources for scalable and secure application deployments. Additionally, possess basic knowledge of Azure and Google Cloud Platform (GCP)."
-    categories: ["others"]
+    categories: ["cloud"]
 
   - name: Docker
     logo: /images/sections/skills/docker.svg
@@ -51,7 +59,7 @@ skills:
   - name: Prometheus
     logo: /images/sections/skills/prometheus.png
     summary: "Capable of setup, configure Prometheus metrics. Also, experienced with writing metric exporters."
-    categories: ["basic"]
+    categories: ["logmonitor"]
     url: "https://prometheus.io/"
 
   - name: Linux
@@ -69,3 +77,73 @@ skills:
     logo: /images/sections/skills/groovy.png
     summary: "Experienced in using Groovy to develop CI/CD pipelines in Jenkins, including the creation of highly mature and reusable shared libraries."
     categories: ["basic", "language"]
+
+  - name: AWS Cloudformation
+    logo: /images/sections/skills/cloudformation.png
+    summary: "Experienced in designing and writing AWS CloudFormation templates to automate infrastructure provisioning and configuration."
+    categories: ["cloud", "iac"]
+
+  - name: Ansible
+    logo: /images/sections/skills/ansible.png
+    summary: "Experienced in developing Ansible playbooks to perform both basic and complex automation tasks, including end-to-end infrastructure provisioning and configuration leveraging Ansible’s full capabilities."
+    categories: ["iac"]
+
+  - name: Jenkins
+    logo: /images/sections/skills/jenkins.png
+    summary: "Experienced in designing and implementing CI/CD pipelines in Jenkins, including the development and use of shared pipelines written in both Declarative and Scripted Jenkins Pipeline syntax."
+    categories: ["cicd"]
+
+  - name: Concourse
+    logo: /images/sections/skills/concourse.png
+    summary: "Experienced in designing and implementing Concourse CI/CD workflows, along with troubleshooting and debugging pipeline-related issues."
+    categories: ["cicd"]
+
+  - name: Github Actions
+    logo: /images/sections/skills/githuba.png
+    summary: "Experienced in developing GitHub Actions workflows, including the use of matrix strategies, and in troubleshooting and debugging GitHub Actions pipelines."
+    categories: ["cicd"]
+
+  - name: Maven
+    logo: /images/sections/skills/maven.png
+    summary: "Experienced in managing and troubleshooting Maven builds, with a strong understanding of the Maven build lifecycle and effective use of key configuration files such as pom.xml and settings.xml"
+    categories: ["basic"]
+
+  - name: Gradle
+    logo: /images/sections/skills/gradle.png
+    summary: "Experienced in building and managing Gradle-based applications, including integration with CI/CD pipelines."
+    categories: ["basic"]
+
+  - name: Nexus
+    logo: /images/sections/skills/nexus.png
+    summary: "Experienced in managing various types of repositories in Nexus and effectively leveraging them within CI/CD pipelines."
+    categories: ["basic"]
+
+  - name: Sonarqube
+    logo: /images/sections/skills/sonarqube.png
+    summary: "Experienced in managing SonarQube for static code analysis and integrating it effectively into CI/CD pipelines."
+    categories: ["basic"]
+
+  - name: Helm
+    logo: /images/sections/skills/helm.png
+    summary: "Experienced in authoring, packaging, and deploying Helm charts, with strong proficiency in managing Kubernetes deployments using Helm."
+    categories: ["container"]
+
+  - name: Kibana
+    logo: /images/sections/skills/kibana.png
+    summary: "Experienced in designing, deploying, and managing ELK stacks, with strong expertise in log analysis and visualization using Kibana."
+    categories: ["logmonitor"]
+
+  - name: Splunk
+    logo: /images/sections/skills/splunk.png
+    summary: "Experienced in log analysis and visualization using Splunk, with hands-on expertise in creating and maintaining dashboards based on available metrics and data."
+    categories: ["logmonitor"]
+
+  - name: Grafana
+    logo: /images/sections/skills/grafana.png
+    summary: "Experienced in creating and managing Grafana dashboards using multiple data sources, along with configuring alerting and notification integrations."
+    categories: ["logmonitor"]
+
+  - name: Dynatrace
+    logo: /images/sections/skills/dynatrace.png
+    summary: "Experienced in creating and managing Dynatrace dashboards across multiple environments using available metrics, along with configuring alerting and notifications via email, Slack, and other channels."
+    categories: ["logmonitor"]
