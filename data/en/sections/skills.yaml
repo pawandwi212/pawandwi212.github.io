@@ -25,47 +25,47 @@ buttons:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Proficient in deploying and managing applications on Kubernetes, with hands-on experience in debugging and resolving Kubernetes-related issues. Well-versed in Kubernetes resources, manifests, and templates."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+  - name: Kubernetes
+    logo: /images/sections/skills/kubernetes.png
+    summary: "Proficient in deploying and managing applications on Kubernetes, with hands-on experience in debugging and resolving Kubernetes-related issues. Well-versed in Kubernetes resources, manifests, and templates."
+    categories: ["container"]
+    url: "https://kubernetes.io/"
 
-- name: Java Development
-  logo: /images/sections/skills/java.png
-  summary: "Capable of writing basic Java programs, debugging issues, and integrating code with applications and web servers."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+  - name: Java Development
+    logo: /images/sections/skills/java.png
+    summary: "Capable of writing basic Java programs, debugging issues, and integrating code with applications and web servers."
+    categories: ["basic", "language"]
+    url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Hands-on experience with key AWS services such as EC2, S3, IAM, EBS, Auto Scaling, ELB, VPC, RDS, and EKS, with expertise in provisioning, configuring, and managing cloud resources for scalable and secure application deployments. Additionally, possess basic knowledge of Azure and Google Cloud Platform (GCP)."
-  categories: ["others"]
+  - name: Cloud Computing
+    logo: /images/sections/skills/cloud.png
+    summary: "Hands-on experience with key AWS services such as EC2, S3, IAM, EBS, Auto Scaling, ELB, VPC, RDS, and EKS, with expertise in provisioning, configuring, and managing cloud resources for scalable and secure application deployments. Additionally, possess basic knowledge of Azure and Google Cloud Platform (GCP)."
+    categories: ["others"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+    categories: ["container"]
+    url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+  - name: Prometheus
+    logo: /images/sections/skills/prometheus.png
+    summary: "Capable of setup, configure Prometheus metrics. Also, experienced with writing metric exporters."
+    categories: ["basic"]
+    url: "https://prometheus.io/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+    categories: ["others"]
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github, GitLab and Bitbucket. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Experienced with git-based development. Mostly, use Github, GitLab and Bitbucket. Also, have experience in working with GitLab."
+    categories: ["basic"]
+    url: "https://git-scm.com/"
 
-- name: Groovy
-  logo: /images/sections/skills/groovy.png
-  summary: "Experienced in using Groovy to develop CI/CD pipelines in Jenkins, including the creation of highly mature and reusable shared libraries."
-  categories: ["basic", "language"]
+  - name: Groovy
+    logo: /images/sections/skills/groovy.png
+    summary: "Experienced in using Groovy to develop CI/CD pipelines in Jenkins, including the creation of highly mature and reusable shared libraries."
+    categories: ["basic", "language"]
