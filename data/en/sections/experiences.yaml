@@ -11,63 +11,87 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: T-Systems ICT India Pvt. Ltd.
+    url: "https://www.t-systems.com/in/en"
+    location: Pune
+    logo: /images/sections/experiences/tsystems.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: test
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Consultant
+    start: Sept 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Designed, implemented, and maintained CI/CD pipelines for application deployment, infrastructure upgrades, and automation using Jenkins, Concourse, and GitHub Actions.
+    - Managed end-to-end DevOps operations, including build, release, deployment, and monitoring of containerized microservices on Kubernetes.
+    - Provisioned and managed CI/CD resources such as SSL certificates, secrets management, environment variables, and configuration parameters.
+    - Monitored and supported release pipelines, ensuring high availability and zero-blocker deployments across Kubernetes clusters.
+    - Executed a successful LDAP migration from a Solaris VM–based directory service to OpenLDAP, including OS upgrades for virtual machines and container base images.
+    - Implemented secure authentication by migrating services from non-secure ldap:// to ldaps:// using certificate-based encryption.
+    - Integrated DevSecOps and code quality tools into CI/CD workflows, including Optima code scanning (GitHub Actions), Black Duck, OWASP, and SonarQube.
+    - Administered and supported cloud and on premises infrastructure for 30+ applications across multiple environments.
+    - Performed application and infrastructure monitoring, incident analysis, troubleshooting, and remediation to ensure production stability.
+    - Actively contributed to production housekeeping, incident management, and operational excellence initiatives.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: Amdocs Development Centre India Pvt. Ltd.
+    url: "https://www.amdocs.com/"
+    location: Remote
+    logo: /images/sections/experiences/amdocs.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Amdocs Development Centre India LLP operates as a technology company. The Company offers software and services to communications, cable and satellite, entertainment, and media industries. Amdocs Development Centre India serves customers worldwide.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: DevOps Engineer
+    start: June 2020
+    end: August 2022
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Monitor all pipelines involved in release process and ensure they are running fine (micro-services on Kubernetes cluster) without any blocker.
+    - Created and enhancing CI/CD/CT Pipeline on cloud (AWS) and on-prem environment.
+    - Centralized CI of pipelines to minimize code duplication and time it takes to reach specific change to all pipeline jobs.
+    - Delivered and now supporting Feature branch CI/CD/CT facility, this is helping developers to validate their changes inside branches before merging anything to develop/master branch.
+    - Help developers with Infra creation and configuration of VMs like Kubernetes cluster, Postgres, ELK for centralized logging, Prometheus and Grafana for monitoring, Consul, Cassandra with help of automations and shell scripts.
+    - Create/Upgrade Infra/Services for on-prem/cloud with automations (Ansible, Jenkins, Git, Maven, Cloudformation, AWS Managed Services, Etc.) as per requirements.
+
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    name: Atos-Syntel
+    url: "https://www.atos-syntel.net/about-us"
+    location: Pune
+    logo: /images/sections/experiences/atosyntel.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Associate Consultant – DevOps Engineer
+    start: July 2018
+    end: March 2020
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Working on creation of Generalized-CI/CD/CT Shared-Library pipeline using Jenkins which can be used across verticals to provide DevOps solutions.
+    - Ob-boarded 190+ applications with single Jenkins Shared-Library supporting Maven, Gradle and MS-Builds build.
+    - Configuring Linux/Windows machines to act like Jenkins Slave, deployment environment.
+    - Added new features in existing shared library pipeline like
+    - 1. Nexus Component Tagging
+    - 2. Generic Project Properties Readers
+    - 3. Artifact Auto-Versioning
+    - 4. Git/SVN Tagging
+    - Created JarFinder Utility to support ant to maven migration of projects.
+    - Created DevSecOpsMetric utility to capture Jenkins build data from and code quality Sonarqube analysis data from their respective servers using Web APIs.
+
+  - designation: Associate Consultant – Java Developer
+    start: Aug 2017
+    end: June 2018
+    responsibilities:
+      - Analysis of Requirements.
+      - Enhancement of existing micro-services written in Java writing unit tests for the same.
+      - Testing the Application Flow.
+      - Make sure changes are passing successfully through CI/CD pipelines.
+      - Configuring Unix/Linux boxes to make them deployment ready.
+      - Preparing deployment in lower environments.
+      - Performing PMD, Check Styles, Bug Fixes.
+      - Interaction and Collaboration with Test Team on Requirements.
